@@ -1,0 +1,46 @@
+*{
+    margin:0;
+    padding:0;
+    border-style: border-box;
+}
+.container{
+    width:100vw;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+}
+.content{
+    width: 70%;
+    height:70%;
+    border:2px solid red;
+    display:flex;
+
+}
+.div-left{
+    width:50%;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+    padding:15px;
+    border:2px solid red;
+}
+.div-right{
+    width:50%;
+}
+.ctqparent{
+    display:flex;
+    justify-content:space-evenly;
+}
+.ctq{
+    display:flex;
+    justify-content:space-evenly;
+    gap:10px;
+}
+img{
+    width:100%;
+    height:100%;
+}
+h1,p{
+    color: aqua;
+
+}
